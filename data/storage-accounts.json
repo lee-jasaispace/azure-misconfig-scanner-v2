@@ -1,0 +1,98 @@
+[
+  {
+    "accessTier": "Hot",
+    "accountMigrationInProgress": null,
+    "allowBlobPublicAccess": true,
+    "allowCrossTenantReplication": false,
+    "allowSharedKeyAccess": null,
+    "allowedCopyScope": null,
+    "azureFilesIdentityBasedAuthentication": null,
+    "blobRestoreStatus": null,
+    "creationTime": "2025-07-20T15:48:22.486120+00:00",
+    "customDomain": null,
+    "defaultToOAuthAuthentication": null,
+    "dnsEndpointType": null,
+    "enableExtendedGroups": null,
+    "enableHttpsTrafficOnly": true,
+    "enableNfsV3": null,
+    "encryption": {
+      "encryptionIdentity": null,
+      "keySource": "Microsoft.Storage",
+      "keyVaultProperties": null,
+      "requireInfrastructureEncryption": null,
+      "services": {
+        "blob": {
+          "enabled": true,
+          "keyType": "Account",
+          "lastEnabledTime": "2025-07-20T15:48:22.657992+00:00"
+        },
+        "file": {
+          "enabled": true,
+          "keyType": "Account",
+          "lastEnabledTime": "2025-07-20T15:48:22.657992+00:00"
+        },
+        "queue": null,
+        "table": null
+      }
+    },
+    "extendedLocation": null,
+    "failoverInProgress": null,
+    "geoReplicationStats": null,
+    "id": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8/resourceGroups/RG-SecureAccess/providers/Microsoft.Storage/storageAccounts/publicstoragedemo9139",
+    "identity": null,
+    "immutableStorageWithVersioning": null,
+    "isHnsEnabled": null,
+    "isLocalUserEnabled": null,
+    "isSftpEnabled": null,
+    "isSkuConversionBlocked": null,
+    "keyCreationTime": {
+      "key1": "2025-07-20T15:48:22.657992+00:00",
+      "key2": "2025-07-20T15:48:22.657992+00:00"
+    },
+    "keyPolicy": null,
+    "kind": "StorageV2",
+    "largeFileSharesState": null,
+    "lastGeoFailoverTime": null,
+    "location": "eastus",
+    "minimumTlsVersion": "TLS1_0",
+    "name": "publicstoragedemo9139",
+    "networkRuleSet": {
+      "bypass": "AzureServices",
+      "defaultAction": "Allow",
+      "ipRules": [],
+      "ipv6Rules": [],
+      "resourceAccessRules": null,
+      "virtualNetworkRules": []
+    },
+    "primaryEndpoints": {
+      "blob": "https://publicstoragedemo9139.blob.core.windows.net/",
+      "dfs": "https://publicstoragedemo9139.dfs.core.windows.net/",
+      "file": "https://publicstoragedemo9139.file.core.windows.net/",
+      "internetEndpoints": null,
+      "microsoftEndpoints": null,
+      "queue": "https://publicstoragedemo9139.queue.core.windows.net/",
+      "table": "https://publicstoragedemo9139.table.core.windows.net/",
+      "web": "https://publicstoragedemo9139.z13.web.core.windows.net/"
+    },
+    "primaryLocation": "eastus",
+    "privateEndpointConnections": [],
+    "provisioningState": "Succeeded",
+    "publicNetworkAccess": "Enabled",
+    "resourceGroup": "RG-SecureAccess",
+    "routingPreference": null,
+    "sasPolicy": null,
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "available",
+    "statusOfSecondary": null,
+    "storageAccountSkuConversionStatus": null,
+    "tags": {
+      "test": "trigger"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  }
+]

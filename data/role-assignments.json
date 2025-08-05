@@ -1,0 +1,40 @@
+[
+  {
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": "",
+    "createdOn": "2025-07-15T12:38:02.512587+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": null,
+    "id": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8/providers/Microsoft.Authorization/roleAssignments/44c4152f-eebc-4404-8ce4-ec312fae32e8",
+    "name": "44c4152f-eebc-4404-8ce4-ec312fae32e8",
+    "principalId": "6a839e1c-2442-4026-bae9-3042e1239534",
+    "principalName": "lee-jasmine_outlook.com#EXT#@leejasmineoutlook.onmicrosoft.com",
+    "principalType": "User",
+    "roleDefinitionId": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8/providers/Microsoft.Authorization/roleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+    "roleDefinitionName": "Owner",
+    "scope": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "",
+    "updatedOn": "2025-07-15T12:38:02.512587+00:00"
+  },
+  {
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": "6a839e1c-2442-4026-bae9-3042e1239534",
+    "createdOn": "2025-07-20T14:51:08.763482+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": null,
+    "id": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8/providers/Microsoft.Authorization/roleAssignments/85e43b7b-26ce-4730-b969-513ccf4b0269",
+    "name": "85e43b7b-26ce-4730-b969-513ccf4b0269",
+    "principalId": "a5d09506-f08b-4a77-9b07-9da9b83376e6",
+    "principalName": "TestUser_LowPriv@leejasmineoutlook.onmicrosoft.com",
+    "principalType": "User",
+    "roleDefinitionId": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8/providers/Microsoft.Authorization/roleDefinitions/39d462a7-d938-465a-8da2-a0c12b620c58",
+    "roleDefinitionName": "InsecureStorageReader",
+    "scope": "/subscriptions/5d4b8df0-f30a-4bc3-b350-1ace90d201b8",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "6a839e1c-2442-4026-bae9-3042e1239534",
+    "updatedOn": "2025-07-20T14:51:08.763482+00:00"
+  }
+]

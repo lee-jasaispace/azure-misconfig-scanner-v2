@@ -1,0 +1,6 @@
+# Started with the following line to query for NSG rules to allow public access on ports 22 and 3389
+az network nsg list --query "[].{Name:name, SecurityRules:securityRules}" -o json > nsg-rules.json
+
+# Noted any VMs (there are no VMs at this time) with public IPs on management ports
+az network nic list --query "[].{Name:name, IPConfigs:ipConfigurations}" -o json > nic-info.json
+

@@ -1,0 +1,9 @@
+# Firstly, listed all the role assignments for my Azure subscritpiton
+az role assignment list --all --output json > data/role-assignments.json
+
+# Secondly, then filtered out risky assignments 
+az role assignment list `
+  --role "Owner" `
+  --output table
+
+# Lastly, created a python rule to scan role assignment which will be used in the future

@@ -1,0 +1,7 @@
+# Firstly, listed all the security recommendations through the CLI
+
+# Exported those finding to a JSON file
+
+# Secondly, filter for high priority recommendations. None at this time
+
+# Lastly, viewed the Defender for Cloud page in the Azure Portal
